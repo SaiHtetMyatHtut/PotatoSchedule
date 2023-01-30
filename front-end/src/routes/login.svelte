@@ -1,5 +1,9 @@
 <script>
+    import { goto } from '$app/navigation';
 	import PotatoButton from '../components/PotatoButton.svelte';
+    function ToHome(){
+        goto('/home');
+    }
 </script>
 
 <div
@@ -22,8 +26,8 @@
 			</div>
 		</div>
 		<div class="flex flex-row justify-end">
-            <p class="text-[#0c1d34] text-xs w-[250px] px-3">Wanna be a Potato? <a class="text-blue-600 underline" href="#">here</a></p>
-            <PotatoButton />
+            <p class="text-[#0c1d34] text-xs w-[250px] px-3">Wanna be a Potato? <a class="text-blue-600 underline" href="www.google.com">here</a></p>
+            <PotatoButton name="Login" where={ToHome}/>
         </div>
 	</div>
 </div>
