@@ -1,5 +1,5 @@
 <div class=" rounded-lg w-[300px] bg-[#0c1d34] shadow-md">
-    <img class=" rounded-t-lg" src="images/demo3.jpg" alt="Photo"/>
+    <img class="rounded-t-lg" src="images/demo3.jpg" alt="Photo"/>
     <div class="text-white flex-grow-0 p-3 space-y-3">
         <div class="flex flex-row space-x-3 items-center">
             <p class="text-2xl font-bold">ILE - 125</p>
